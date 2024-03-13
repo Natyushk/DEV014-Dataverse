@@ -1054,3 +1054,5 @@ tu proyecto:
 
 Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
 _life skills_ desde tu dashboard de estudiante.
+
+Laboratoria
