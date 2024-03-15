@@ -1,378 +1,434 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "jeff-bezos",
+    "name": "Jeff Bezos",
+   "shortDescription": "Jeff Bezos, fundador de Amazon, líder visionario en comercio electrónico y tecnología, transformó la industria globalmente con innovación audaz.",
+    "longDescription": "Jeff Bezos, fundador de Amazon, es una figura emblemática en el mundo empresarial y tecnológico. Nacido en 1964 en los Estados Unidos, se destacó por su visión audaz y su capacidad para transformar la manera en que compramos y consumimos. Como CEO de Amazon, lideró la expansión de la empresa desde una librería en línea hasta un gigante global del comercio electrónico. Su enfoque implacable en la innovación y la satisfacción del cliente lo convirtió en la persona más rica del mundo. Además, Bezos ha incursionado en otros campos, como la exploración espacial a través de su empresa Blue Origin.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/jeff-bezos-el-amo-del-mundo.jpg",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+      "birthYear": 1964,
+      "age": 60,
+      "fortune": "$100.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "industry": "Tecnología",
+      "countryOfBirth": "United States",
+      "continent": "North America"
     }
   },
+
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "bernard-arnault",
+    "name": "Bernard Arnault",
+    "shortDescription": "Bernard Arnault, CEO de LVMH, líder del lujo global y visionario en la industria de la moda y los bienes de lujo.",
+    "longDescription": "Bernard Arnault, presidente y CEO de LVMH, es una figura destacada en la industria del lujo. Nacido en Francia en 1949, ha consolidado su posición como uno de los magnates más influyentes del mundo. Con un enfoque en la excelencia y la creatividad, ha liderado LVMH hacia un crecimiento constante y un éxito sin precedentes. Su visión estratégica y su compromiso con la calidad lo han convertido en una figura emblemática del sector. Además, Arnault es conocido por su filantropía y su apoyo a iniciativas culturales y educativas.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Bernard%20Arnault.jpeg",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+      "birthYear": 1949,
+      "age": 75,
+      "fortune": "$150.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "industry": "Moda",
+      "countryOfBirth": "France",
+      "continent": "Europe"
     }
   },
-  {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+
+{
+    "id": "elon-musk",
+    "name": "Elon Musk",
+    "shortDescription": "Elon Musk, visionario tecnológico y CEO de SpaceX y Tesla, lidera la revolución en la exploración espacial y el transporte eléctrico.",
+    "longDescription": "Elon Musk, emprendedor y visionario sudafricano-estadounidense, es conocido por su liderazgo en SpaceX, Tesla y otras empresas innovadoras. Nacido en 1971, Musk ha revolucionado la tecnología espacial con SpaceX, llevando la exploración humana a nuevos horizontes. Además, como CEO de Tesla, ha liderado la industria automotriz hacia la electrificación y la autonomía. Su visión incluye la colonización de Marte, el transporte sostenible y la energía renovable, desafiando constantemente los límites de la tecnología y la innovación",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/elon-musk.jpg",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+      "birthYear": 1971,
+      "age": 53,
+      "fortune": "$200.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "industry": "Tecnología",
+      "countryOfBirth": "South Africa",
+      "continent": "Africa"
     }
   },
+
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "mark-zuckerberg",
+    "name": "Mark Zuckerberg",
+    "shortDescription": "CEO de Facebook, pionero en redes sociales y tecnología, conectando a personas globalmente y liderando innovación digital.",
+    "longDescription": "Cofundador y CEO de Facebook, es una figura destacada en la industria de la tecnología y las redes sociales. Nacido en 1984 en Estados Unidos, Zuckerberg fundó Facebook en su dormitorio de la universidad, convirtiéndola en una de las plataformas más influyentes del mundo. Su visión de conectar a las personas y fomentar la comunicación global ha transformado la forma en que interactuamos en línea. Además, Zuckerberg ha liderado iniciativas en inteligencia artificial, realidad virtual y filantropía, buscando impactar positivamente en la sociedad a través de la tecnología.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Mark%20Zuckerberg.jpeg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+      "birthYear": 1984,
+      "age": 40,
+      "fortune": "$120.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "industry": "Tecnología",
+      "countryOfBirth": "United States",
+      "continent": "North America"
     }
   },
+
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "warren-buffett",
+    "name": "Warren Buffett",
+    "shortDescription": "CEO de Berkshire Hathaway, legendario inversor y filántropo, conocido por su enfoque de inversión a largo plazo.",
+    "longDescription": "Presidente y CEO de Berkshire Hathaway, es uno de los inversores más exitosos y respetados del mundo. Nacido en 1930 en Estados Unidos, Buffett ha acumulado su fortuna mediante una estrategia de inversión a largo plazo basada en la valoración de empresas sólidas. Conocido como 'El Oráculo de Omaha', su enfoque pragmático y su filosofía de inversión han inspirado a generaciones de inversores. Además, Buffett es un destacado filántropo, comprometido a donar gran parte de su riqueza para abordar importantes problemas sociales.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/warren%20buffett.jpg",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+      "birthYear": 1930,
+      "age": 94,
+      "fortune": "$110.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "industry": "Finanzas",
+      "countryOfBirth": "United States",
+      "continent": "North America"
     }
   },
+
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id": "bill-gates",
+    "name": "Bill Gates",
+    "shortDescription": "cofundador de Microsoft y filántropo, líder tecnológico y humanitario comprometido con mejorar el mundo.",
+    "longDescription": "cofundador de Microsoft y filántropo, es una figura icónica en la industria de la tecnología y la filantropía global. Nacido en 1955 en Estados Unidos, Gates fundó Microsoft en 1975, liderando la revolución de la computación personal. Su visión y liderazgo transformaron a Microsoft en una de las empresas más grandes del mundo. Después de dejar Microsoft, Gates se ha dedicado a la filantropía a través de la Fundación Bill y Melinda Gates, abordando desafíos de salud, educación y pobreza en todo el mundo.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Bill%20Gates.jpeg",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+      "birthYear": 1955,
+      "age": 69,
+      "fortune": "$130.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "industry": "Tecnología",
+      "countryOfBirth": "United States",
+      "continent": "North America"
     }
   },
+
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "id": "mukesh-ambani",
+    "name": "Mukesh Ambani",
+    "shortDescription": "CEO de Reliance Industries, magnate indio del petróleo y las telecomunicaciones, líder en innovación y expansión empresarial.",
+    "longDescription": "presidente y director ejecutivo de Reliance Industries, es una destacada figura en la industria del petróleo, gas y telecomunicaciones. Nacido en 1957 en India, Ambani ha liderado la expansión y diversificación de Reliance Industries, convirtiéndola en una de las empresas más grandes y rentables del país. Su visión estratégica y su enfoque en la innovación lo han llevado a liderar iniciativas de transformación digital y energía renovable en la India. Además, Ambani es conocido por su estilo de vida ostentoso y su influencia en la política y la economía del país.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Mukesh%20Ambani.jpeg",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+      "birthYear": 1957,
+      "age": 67,
+      "fortune": "$90.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "industry": "Gas & Petroleo",
+      "countryOfBirth": "India",
+      "continent": "Asia"
     }
   },
+
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "id": "zhong-shanshan",
+    "name": "Zhong Shanshan",
+    "shortDescription": "Presidente de Nongfu Spring, líder en la industria de bebidas de China, famoso por su enfoque en la calidad.",
+    "longDescription": "Fundador y presidente de Nongfu Spring, es una destacada figura en la industria de bebidas de China. Nacido en 1954, Zhong ha construido su imperio desde cero, convirtiendo a Nongfu Spring en una de las marcas de agua embotellada más grandes del país. Su enfoque en la calidad y la salud ha resonado con los consumidores chinos, llevando a un crecimiento exponencial de la empresa. Además, Zhong es conocido por su discreción y su enfoque pragmático en los negocios, lo que lo ha convertido en uno de los hombres más ricos de China.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Zhong%20Shanshan.jpg",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+      "birthYear": 1954,
+      "age": 70,
+      "fortune": "$85B"
     },
     "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+      "industry": "Bebidas",
+      "countryOfBirth": "China",
+      "continent": "Asia"
     }
   },
+
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "id": "steve-ballmer",
+    "name": "Steve Ballmer",
+    "shortDescription": "Ex CEO de Microsoft y propietario de los Clippers, líder tecnológico y deportivo influyente.",
+    "longDescription": "ex CEO de Microsoft y propietario de Los Angeles Clippers, es una figura destacada en la industria tecnológica y deportiva. Nacido en 1956 en Estados Unidos, Ballmer dirigió Microsoft durante un período de expansión significativa, consolidando su posición como líder en software. Su enfoque apasionado y su energía contagiosa lo convirtieron en una figura icónica dentro de la empresa. Después de dejar Microsoft, Ballmer se ha dedicado a la propiedad deportiva, adquiriendo los Clippers y demostrando su liderazgo en un nuevo campo.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Steve%20Ballmer.jpg",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+      "birthYear": 1956,
+      "age": 68,
+      "fortune": "$80.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+      "industry": "Tecnología",
+      "countryOfBirth": "United States",
+      "continent": "North America"
     }
   },
+
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "id": "larry-ellison",
+    "name": "Larry Ellison",
+    "shortDescription": "co-fundador y presidente de Oracle, líder tecnológico y visionario empresarial en el ámbito de la informática.",
+    "longDescription": "co-fundador y presidente de Oracle Corporation, es una figura prominente en la industria tecnológica. Nacido en 1944 en Estados Unidos, Ellison ha sido un pionero en bases de datos relacionales y software empresarial. Su visión y liderazgo han llevado a Oracle a convertirse en una de las empresas líderes en tecnología a nivel mundial. Ellison es conocido por su estilo de vida extravagante y sus intereses en la navegación a vela, además de su filantropía y su contribución a la innovación tecnológica.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/larry%20ellison.jpg",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "birthYear": 1944,
+      "age": 78,
+      "fortune": "$85B"
     },
     "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+      "industry": "Tecnología",
+      "countryOfBirth": "United States",
+      "continent": "North America"
     }
   },
+
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id": "sergey-brin",
+    "name": "Sergey Brin",
+    "shortDescription": "Co-fundador de Google, líder tecnológico y visionario en la industria de la informática y la innovación.",
+    "longDescription": "Co-fundador de Google, es una figura influyente en la industria tecnológica. Nacido en 1973 en Rusia, Brin emigró a Estados Unidos y cofundó Google con Larry Page en 1998. Su visión y liderazgo llevaron a Google a convertirse en el motor de búsqueda más utilizado del mundo y a diversificar su cartera de productos y servicios. Brin también ha incursionado en áreas como la inteligencia artificial y la biotecnología, reflejando su pasión por la innovación y la exploración de nuevas fronteras tecnológicas.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Sergey%20Brin.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "birthYear": 1973,
+      "age": 49,
+      "fortune": "$90.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+      "industry": "Tecnología",
+      "countryOfBirth": "Russia",
+      "continent": "Europe"
     }
   },
+
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": "larry-page",
+    "name": "Larry Page",
+    "shortDescription": "Cofundador de Google, visionario tecnológico y líder en innovación, impulsando el cambio en la industria tecnológica global.",
+    "longDescription": "Cofundador de Google, es una figura influyente en la industria tecnológica. Nacido en 1973 en Estados Unidos, Page cofundó Google con Sergey Brin en 1998. Su visión y liderazgo fueron fundamentales para convertir a Google en el motor de búsqueda líder mundial y diversificar la empresa en una amplia gama de productos y servicios. Page es conocido por su enfoque en la innovación disruptiva y su interés en proyectos de investigación avanzada, reflejando su compromiso con la creación de un impacto positivo a través de la tecnología.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Larry%20Page.jpg",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "birthYear": 1973,
+      "age": 49,
+      "fortune": "$90.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+      "industry": "Tecnología",
+      "countryOfBirth": "United States",
+      "continent": "North America"
     }
   },
+
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "id": "francoise-bettencourt-meyers",
+    "name": "Françoise Bettencourt Meyers",
+    "shortDescription": " Heredera de L'Oréal",
+    "longDescription": "Es una heredera milmillonaria francesa y escritora de comentarios sobre la Biblia y trabajos sobre la relación judeo cristiana. Es la única hija y por tanto heredera de Liliane Bettencourt. Su familia es dueña de L'Oréal.​ Está casada con Jean-Pierre Meyers, el nieto de un rabino asesinado en Auschwitz. Después de su matrimonio, Meyers decidió criar a sus hijos como judíos. Su matrimonio causó controversia debido a que su abuelo materno, Eugène Schueller, tuvo que sentarse en juicio por su colaboración con el gobierno Nazi.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/francoise-bettencourt-meyers.jpg",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "birthYear": 1953,
+      "age": 71,
+      "fortune": "$90.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+      "industry": "Cosmeticos",
+      "countryOfBirth": "Francia",
+      "continent": "Europa"
     }
   },
+
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "id": "ma-huateng",
+    "name": "Ma Huateng",
+    "shortDescription": "emprendedor y multimillonario magnate de internet chino.",
+    "longDescription": "Es fundador de Tencent Holdings,2​3​ una compañía de Internet en China, se graduó de la Universidad de Shenzhen.4​ En 2007 la revista Time lo llamó una de las personas más influyentes del mundo,5​ y en enero de 2018, es la segunda persona más rica de China, y era la 22º persona más rica del mundo, con un patrimonio neto de $ 39,9 mil millones en 2018,​ según la revista Forbes.El primer producto de la empresa, una herramienta de mensajería instantánea llamada Tencent QQ, la cual se hizo muy popular en China.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Ma-Huateng.jpg",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "birthYear": 1971,
+      "age": 52,
+      "fortune": "$150.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+      "industry": "Tecnología",
+      "countryOfBirth": "China",
+      "continent": "Asia"
     }
   },
+
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "id": "xiaomi-ceo",
+    "name": "Lei Jun",
+    "shortDescription": " CEO y co fundador de Xiaomi",
+    "longDescription": "Es un ingeniero electrónico, empresario y director ejecutivo chino. Es uno de los cofundadores y director ejecutivo de la empresa china Xiaomi, dedicada al diseño, desarrollo y venta de teléfonos inteligentes, aplicaciones informáticas y otros productos electrónicos. ​En 2013, la empresa ha conseguido convertir unos de sus modelos, el Xiaomi Mi2S, en el móvil más popular de China, por delante del Galaxy S4 de Samsung y del iPhone 5 de Apple, según los datos de la consultora especializada Antutu, con un producto competitivo y más barato que sus competidores.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Lei%20Jun.jpg",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+      "birthYear": 1969,
+      "age": 55,
+      "fortune": "$80.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "industry": "Tecnología",
+      "countryOfBirth": "China",
+      "continent": "Asia"
     }
   },
+
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "id": "michael-bloomberg",
+    "name": "Michael Rubens Bloomberg",
+    "shortDescription": "Empresario y político estadounidense, Fundador de Bloomberg",
+    "longDescription": "Es fundador de la compañía de información financiera Bloomberg L.P., en noviembre de 2019, su patrimonio neto se estimaba en 54.000 millones de dólares, lo que lo convertía en la novena persona más rica de Estados Unidos de acuerdo a Forbes. En abril de 2023, Forbes le situaba como la séptima persona más rica del mundo, con una fortuna de 94.500 millones de dólares, y la decimocuarta en la lista Forbes 400, con una fortuna de 55.000 millones de dólares. Desde 2020 se desempeña como Enviado Especial del Secretario General de las Naciones Unidas para la Ambición Climática y Soluciones.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Mike%20Bloomberg.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+      "birthYear": 1942,
+      "age": 80,
+      "fortune": "$60.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+      "industry": "Finanzas",
+      "countryOfBirth": "Estados Unidos",
+      "continent": "América del Norte"
     }
   },
+
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "id": "lakshmi-mittal",
+    "name": "Lakshmi Mittal",
+    "shortDescription": "ArcelorMittal CEO",
+    "longDescription": "Lakshmi Mittal es un multimillonario industrial, nacido el 15 de junio de 1950, en el distrito de Churu de Rajasthán, es el presidente y consejero delegado de la Mittal Steel Company, la mayor productora de acero a nivel mundial. Actualmente, Mittal Steel Company tiene sucursales en 14 países, entre ellos Rumanía, Polonia, Sudáfrica, Indonesia, Bosnia-Herzegovina, Kazajistán, México, España, Venezuela y Estados Unidos. En 2004 fue elegido el Empresario Europeo del Año por la revista estadounidense Fortune.Actualmente reside en las cercanías del palacio de Kensington en Londres, Reino Unido",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/lakshmi-mittal.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+      "birthYear": 1950,
+      "age": 74,
+      "fortune": "$25B"
     },
     "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+      "industry": "Acero",
+      "countryOfBirth": "India",
+      "continent": "Asia"
     }
   },
+
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "id": "jack-ma",
+    "name": "Jack Ma",
+    "shortDescription": "Co fundador Alibaba",
+    "longDescription": "Es el fundador y presidente ejecutivo de Alibaba Group, un consorcio de negocios de Internet de gran éxito en China. Fue el primer empresario de la China continental en aparecer en la portada de Forbes.3​ Es considerado como el chino más rico del mundo luego de la oferta pública de venta de Alibaba Group en la Bolsa de Nueva York. Fue una de las personas más ricas del mundo, con una fortuna de 37.3 mil millones de dólares (febrero de 2020), y ocupó el puesto 21 en la lista ",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/jack%20Ma.jpg",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+      "birthYear": 1964,
+      "age": 60,
+      "fortune": "$45B"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+      "industry": "Tecnología",
+      "countryOfBirth": "China",
+      "continent": "Asia"
     }
   },
+
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "id": "carlos-slim",
+    "name": "Carlos Slim",
+    "shortDescription": "Empresario e ingeniero Mexicano",
+    "longDescription": "El conglomerado corporativo de Slim abarca numerosas industrias y servicios, notablemente en materia de las telecomunicaciones de diversos países de América, también se extienden a la manufactura, transporte, construcción, el sector inmobiliario, cadenas de tiendas, el sector financiero, energía, minería, salud, deportes y medios de comunicación.Slim compró Telmex durante las privatizaciones  a través de una subasta pública el 9 de diciembre de 1990. Uno de los requisitos  era que la propiedad mayoritaria quedara en manos mexicanas, entre los grupos con control accionario mexicano, la mayor fue la que encabezaba el Grupo Carso, cuyo socio mayoritario es Carlos Slim.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Carlos%20Slim.jpg",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+      "birthYear": 1940,
+      "age": 82,
+      "fortune": "$50.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+      "industry": "Diversificado",
+      "countryOfBirth": "Mexico",
+      "continent": "América del Norte"
     }
   },
+
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "id": "charles-koch",
+    "name": "Charles Koch",
+    "shortDescription": "CEO de Koch Industries",
+    "longDescription": "Es un empresario multimillonario y copropietario estadounidense, junto con la familia de su difunto hermano David Koch (1940-2019), de la empresa Koch Industries, un conglomerado de empresas estadounidenses con numerosas filiales dedicadas a la fabricación, comercio e inversiones, que se estima que dan como ingresos anuales unos 100.000 millones de dólares. Él y su hermano David compraron la parte de sus otros dos hermanos.Su padre creó un nuevo método para refinar y obtener gasolina, llegando a construir 15 refinerías para Stalin, y fundando después la Rock Island Oil & Refining.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/charles%20koch.jpg",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+      "birthYear": 1935,
+      "age": 89,
+      "fortune": "$40.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+      "industry": "Diversificado",
+      "countryOfBirth": "Estados Unidos",
+      "continent": "América del Norte"
     }
   },
+
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "id": "jim-walton",
+    "name": "Jim Walton",
+    "shortDescription": "Heredero de Walmart y presidente de Arvest Bank, influyente en el negocio minorista y la industria financiera.",
+    "longDescription": "Hijo de Sam Walton, es un empresario estadounidense y heredero de Walmart. Nacido en 1948, ha desempeñado roles importantes en la dirección de Walmart, contribuyendo al éxito continuo de la empresa familiar. Además, es presidente de Arvest Bank, una de las instituciones financieras más grandes de Arkansas. Aunque es conocido por su perfil discreto, su influencia en el negocio minorista y la industria financiera es significativa, y su patrimonio lo coloca entre las personas más ricas del mundo.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Jim_Walton.jpg",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+      "birthYear": 1948,
+      "age": 76,
+      "fortune": "$70.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+      "industry": "Retail",
+      "countryOfBirth": "Estados Unidos",
+      "continent": "América del Norte"
     }
   },
+
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "id": "francois-pinault",
+    "name": "François Pinault",
+    "shortDescription": "CEO de Kering, líder en la industria de la moda de lujo y apasionado coleccionista de arte contemporáneo.",
+    "longDescription": "Fundador y CEO de Kering, es una figura influyente en la industria de la moda y el lujo. Nacido en 1936 en Francia, Pinault ha construido un imperio empresarial que incluye marcas como Gucci, Saint Laurent y Balenciaga. Su enfoque en la creatividad y la excelencia ha llevado a Kering a la cima de la industria. Además, Pinault es un coleccionista de arte apasionado y ha fundado la Pinault Collection, una de las colecciones de arte contemporáneo más importantes del mundo.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Fran%C3%A7ois_Pinault.jpg",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+      "birthYear": 1936,
+      "age": 88,
+      "fortune": "$40.000.000.000"
     },
     "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+      "industry": "Moda",
+      "countryOfBirth": "France",
+      "continent": "Europe"
+    }
+  } 
+
+{
+    "id": "alice-walton",
+    "name": "Alice Walton",
+    "shortDescription": "Heredera de Walmart, destacada coleccionista de arte y filántropa comprometida con causas sociales y educativas.",
+    "longDescription": "heredera de Walmart, es una destacada figura en el mundo del arte y la filantropía. Nacida en 1949 en Estados Unidos, Walton ha sido una ávida coleccionista de arte y fundó el Crystal Bridges Museum of American Art en Arkansas. Su influencia en el ámbito del arte la ha convertido en una figura prominente en la escena cultural de Estados Unidos. Además, Walton es conocida por su compromiso con la filantropía, apoyando diversas causas sociales y educativas en su comunidad y más allá.",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Alice%20Walton.jpg",
+    "facts": {
+      "birthYear": 1949,
+      "age": 75,
+      "fortune": "$70.000.000.000"
+    },
+    "extraInfo": {
+      "industry": "Retail",
+      "countryOfBirth": "Estados Unidos",
+      "continent": "América del Norte"
+    }
+},
+
+  {
+    "id": "gio-ferrero",
+    "name": "Giovanni Ferrero",
+    "shortDescription": "Empresario Italiano",
+    "longDescription": "Es un empresario italiano. Asumió el liderazgo de la empresa de confitería Ferrero SpA después de la muerte de su hermano Pietro Ferrero en 2011.​ Tiene un patrimonio neto de $ 30.8 mil millones a septiembre de 2019, Forbes estimó su patrimonio neto en $ 26.3 mil millones,el más rico de Italia.2En abril de 2011, tras la muerte de su hermano en un accidente de bicicleta en Sudáfrica, se convirtió en el único director ejecutivo de Ferrero Group. Su padre, Michele Ferrero, permaneció como presidente ejecutivo. Michele Ferrero murió en 2015, dejando la empresa únicamente en manos de Giovanni",
+    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Giovani%20Ferrero.jpg",
+    "facts": {
+      "birthYear": 1949,
+      "age": 75,
+      "fortune": "$39.000.000.000"
+    },
+    "extraInfo": {
+      "industry": "Alimentos",
+      "countryOfBirth": "Italia",
+      "continent": "Europa"
     }
   },
-  {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
-  },
-  {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
-    }
-  }
+
 ];
