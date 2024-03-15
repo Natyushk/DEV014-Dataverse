@@ -6,6 +6,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="root">
+      <ul id="cards"></ul>
+    </div>
+    <select data-testid="select-filter" name="country">
+      <option value="">Todos los países</option>
+    </select>
+    <select data-testid="select-sort" name="netWorth">
+      <option value="asc">Ordenar (A-Z)</option>
+      <option value="desc">Ordenar (Z-A)</option>
+    </select>
+    <select data-testid="select-sort" name="age">
+      <option value="asc">Edad (menor a mayor)</option>
+      <option value="desc">Edad (mayor a menor)</option>
+    </select>
+    <button data-testid="button-clear">Limpiar filtros</button>
+
+    
+
     <script src="main.js" type="module"></script>
   </body>
 </html>
