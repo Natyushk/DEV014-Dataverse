@@ -6,24 +6,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <ul id="cards"></ul>
-    </div>
-    <select data-testid="select-filter" name="country">
-      <option value="">Todos los países</option>
-    </select>
-    <select data-testid="select-sort" name="netWorth">
-      <option value="asc">Ordenar (A-Z)</option>
-      <option value="desc">Ordenar (Z-A)</option>
-    </select>
-    <select data-testid="select-sort" name="age">
-      <option value="asc">Edad (menor a mayor)</option>
-      <option value="desc">Edad (mayor a menor)</option>
-    </select>
-    <button data-testid="button-clear">Limpiar filtros</button>
-
-    
-
+    <header>
+      <h1>Personas mas ricas del mundo</h1>
+    </header>
+    <main>
+      <h2></h2>
+      <label for="continente">Filtrar por continente:</label>
+      <select name="continente">
+        <option value="America del Norte">America del Norte</option>
+        <option value="America del Sur">America del Sur</option>
+        <option value="Europa">Europa</option>
+        <option value="Asia">Asia</option>
+      </select>
+    </main>
+    <footer>
+      <p>Creadoras.</p>
+    </footer>
     <script src="main.js" type="module"></script>
   </body>
 </html>
