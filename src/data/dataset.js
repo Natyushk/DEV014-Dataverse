@@ -382,7 +382,7 @@ export default [
     "name": "François Pinault",
     "shortDescription": "CEO de Kering, líder en la industria de la moda de lujo y apasionado coleccionista de arte contemporáneo.",
     "longDescription": "Fundador y CEO de Kering, es una figura influyente en la industria de la moda y el lujo. Nacido en 1936 en Francia, Pinault ha construido un imperio empresarial que incluye marcas como Gucci, Saint Laurent y Balenciaga. Su enfoque en la creatividad y la excelencia ha llevado a Kering a la cima de la industria. Además, Pinault es un coleccionista de arte apasionado y ha fundado la Pinault Collection, una de las colecciones de arte contemporáneo más importantes del mundo.",
-    "photoUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Fran%C3%A7ois_Pinault.jpg",
+    "photoUrl": "https://raw.gigitDEV014-Dataverse/main/IMAGENES/Fran%C3%A7ois_Pinault.jpg",
     "facts": {
       "birthYear": 1936,
       "age": 88,
@@ -393,9 +393,9 @@ export default [
       "countryOfBirth": "France",
       "continent": "Europe"
     }
-  } 
+  },
 
-{
+  {
     "id": "alice-walton",
     "name": "Alice Walton",
     "shortDescription": "Heredera de Walmart, destacada coleccionista de arte y filántropa comprometida con causas sociales y educativas.",
@@ -411,7 +411,7 @@ export default [
       "countryOfBirth": "Estados Unidos",
       "continent": "América del Norte"
     }
-},
+  },
 
   {
     "id": "gio-ferrero",
