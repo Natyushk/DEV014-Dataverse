@@ -3,12 +3,11 @@ export const renderItems = (dataArray) => {
   // Verificar si dataArray es un array
   if (!Array.isArray(dataArray)) {
     console.error("Data debe ser un array.");
-    return;
+    return; 
   }
 
   // Crear un nuevo ul
   const newUl = document.createElement("ul");
-  document.body.appendChild(newUl);
 
   // Iterar sobre cada elemento en el array
   dataArray.forEach(element => {
@@ -27,4 +26,5 @@ export const renderItems = (dataArray) => {
     newLi.appendChild(newP);
     newP.innerHTML = element.name
   });
+  return newUl
 };
