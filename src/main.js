@@ -5,7 +5,7 @@ import { renderItems } from './view.js';
 import { filterByContinent, sortBy, calculateTotalFortune } from './dataFunctions.js';
 
 // Renderizar los elementos inicialmente
-renderItems(data);
+document.querySelector("main").appendChild(renderItems(data))
 
 // Referencias a elementos del DOM
 const continentFilterSelect = document.getElementById('continent-filter');
