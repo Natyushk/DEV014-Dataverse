@@ -12,8 +12,8 @@ export default [
     },
     "extraInfo": {
       "industry": "Tecnología",
-      "countryOfBirth": "United States",
-      "continent": "North America"
+      "countryOfBirth": "Estados Unidos",
+      "continent": "América"
     }
   },
   {
@@ -29,8 +29,8 @@ export default [
     },
     "extraInfo": {
       "industry": "Moda",
-      "countryOfBirth": "France",
-      "continent": "Europe"
+      "countryOfBirth": "Francia",
+      "continent": "Europa"
     }
   },
   {
@@ -46,7 +46,7 @@ export default [
     },
     "extraInfo": {
       "industry": "Tecnología",
-      "countryOfBirth": "South Africa",
+      "countryOfBirth": "Sudáfrica",
       "continent": "Africa"
     }
   },
@@ -63,8 +63,8 @@ export default [
     },
     "extraInfo": {
       "industry": "Tecnología",
-      "countryOfBirth": "United States",
-      "continent": "North America"
+      "countryOfBirth": "Estados Unidos",
+      "continent": "América"
     }
   },
 
@@ -81,8 +81,8 @@ export default [
     },
     "extraInfo": {
       "industry": "Finanzas",
-      "countryOfBirth": "United States",
-      "continent": "North America"
+      "countryOfBirth": "Estados Unidos",
+      "continent": "América"
     }
   },
 
@@ -99,8 +99,8 @@ export default [
     },
     "extraInfo": {
       "industry": "Tecnología",
-      "countryOfBirth": "United States",
-      "continent": "North America"
+      "countryOfBirth": "Estados Unidos",
+      "continent": "América"
     }
   },
 
@@ -153,8 +153,8 @@ export default [
     },
     "extraInfo": {
       "industry": "Tecnología",
-      "countryOfBirth": "United States",
-      "continent": "North America"
+      "countryOfBirth": "Estados Unidos",
+      "continent": "América"
     }
   },
 
@@ -171,8 +171,8 @@ export default [
     },
     "extraInfo": {
       "industry": "Tecnología",
-      "countryOfBirth": "United States",
-      "continent": "North America"
+      "countryOfBirth": "Estados Unidos",
+      "continent": "América"
     }
   },
 
@@ -189,8 +189,8 @@ export default [
     },
     "extraInfo": {
       "industry": "Tecnología",
-      "countryOfBirth": "Russia",
-      "continent": "Europe"
+      "countryOfBirth": "Rusia",
+      "continent": "Europa"
     }
   },
 
@@ -207,8 +207,8 @@ export default [
     },
     "extraInfo": {
       "industry": "Tecnología",
-      "countryOfBirth": "United States",
-      "continent": "North America"
+      "countryOfBirth": "Estados Unidos",
+      "continent": "América"
     }
   },
 
@@ -216,7 +216,7 @@ export default [
     "id": "francoise-bettencourt-meyers",
     "name": "Françoise Bettencourt Meyers",
     "shortDescription": " Heredera de L'Oréal",
-    "description": "Es una heredera milmillonaria francesa y escritora de comentarios sobre la Biblia y trabajos sobre la relación judeo cristiana. Es la única hija y por tanto heredera de Liliane Bettencourt. Su familia es dueña de L'Oréal.​ Está casada con Jean-Pierre Meyers, el nieto de un rabino asesinado en Auschwitz. Después de su matrimonio, Meyers decidió criar a sus hijos como judíos. Su matrimonio causó controversia debido a que su abuelo materno, Eugène Schueller, tuvo que sentarse en juicio por su colaboración con el gobierno Nazi.",
+    "description": "Es una heredera milmillonaria Franciasa y escritora de comentarios sobre la Biblia y trabajos sobre la relación judeo cristiana. Es la única hija y por tanto heredera de Liliane Bettencourt. Su familia es dueña de L'Oréal.​ Está casada con Jean-Pierre Meyers, el nieto de un rabino asesinado en Auschwitz. Después de su matrimonio, Meyers decidió criar a sus hijos como judíos. Su matrimonio causó controversia debido a que su abuelo materno, Eugène Schueller, tuvo que sentarse en juicio por su colaboración con el gobierno Nazi.",
     "imageUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/francoise-bettencourt-meyers.jpg",
     "facts": {
       "birthYear": 1953,
@@ -280,7 +280,7 @@ export default [
     "extraInfo": {
       "industry": "Finanzas",
       "countryOfBirth": "Estados Unidos",
-      "continent": "América del Norte"
+      "continent": "América"
     }
   },
 
@@ -288,7 +288,7 @@ export default [
     "id": "lakshmi-mittal",
     "name": "Lakshmi Mittal",
     "shortDescription": "ArcelorMittal CEO",
-    "description": "Lakshmi Mittal es un multimillonario industrial, nacido el 15 de junio de 1950, en el distrito de Churu de Rajasthán, es el presidente y consejero delegado de la Mittal Steel Company, la mayor productora de acero a nivel mundial. Actualmente, Mittal Steel Company tiene sucursales en 14 países, entre ellos Rumanía, Polonia, Sudáfrica, Indonesia, Bosnia-Herzegovina, Kazajistán, México, España, Venezuela y Estados Unidos. En 2004 fue elegido el Empresario Europeo del Año por la revista estadounidense Fortune.Actualmente reside en las cercanías del palacio de Kensington en Londres, Reino Unido",
+    "description": "Lakshmi Mittal es un multimillonario industrial, nacido el 15 de junio de 1950, en el distrito de Churu de Rajasthán, es el presidente y consejero delegado de la Mittal Steel Company, la mayor productora de acero a nivel mundial. Actualmente, Mittal Steel Company tiene sucursales en 14 países, entre ellos Rumanía, Polonia, Sudáfrica, Indonesia, Bosnia-Herzegovina, Kazajistán, México, España, Venezuela y Estados Unidos. En 2004 fue elegido el Empresario Europao del Año por la revista estadounidense Fortune.Actualmente reside en las cercanías del palacio de Kensington en Londres, Reino Unido",
     "imageUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/lakshmi-mittal.jpg",
     "facts": {
       "birthYear": 1950,
@@ -334,7 +334,7 @@ export default [
     "extraInfo": {
       "industry": "Diversificado",
       "countryOfBirth": "Mexico",
-      "continent": "América del Norte"
+      "continent": "América"
     }
   },
 
@@ -352,7 +352,7 @@ export default [
     "extraInfo": {
       "industry": "Diversificado",
       "countryOfBirth": "Estados Unidos",
-      "continent": "América del Norte"
+      "continent": "América"
     }
   },
 
@@ -370,7 +370,7 @@ export default [
     "extraInfo": {
       "industry": "Retail",
       "countryOfBirth": "Estados Unidos",
-      "continent": "América del Norte"
+      "continent": "América"
     }
   },
 
@@ -387,8 +387,8 @@ export default [
     },
     "extraInfo": {
       "industry": "Moda",
-      "countryOfBirth": "France",
-      "continent": "Europe"
+      "countryOfBirth": "Francia",
+      "continent": "Europa"
     }
   },
 
@@ -406,7 +406,7 @@ export default [
     "extraInfo": {
       "industry": "Retail",
       "countryOfBirth": "Estados Unidos",
-      "continent": "América del Norte"
+      "continent": "América"
     }
 },
 
