@@ -20,12 +20,6 @@ export const renderItems = (dataArray) => {
     newLi.appendChild(nodoImg);
 
     // Crear y configurar el párrafo con el nombre
-<<<<<<< Updated upstream
-    const newP = document.createElement("p");
-    newP.textContent = element.name;
-    newLi.appendChild(newP);
-    newP.innerHTML = element.name
-=======
     const newPName = document.createElement("p");
     newPName.textContent = `Nombre: ${element.name}`
     newLi.appendChild(newPName);
@@ -48,7 +42,6 @@ export const renderItems = (dataArray) => {
 
     //newP.innerHTML = element.name + element.extraInfo.continent;
 
->>>>>>> Stashed changes
   });
   return newUl;
 };

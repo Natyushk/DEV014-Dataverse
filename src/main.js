@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 import data from './data/dataset.js';
 import { renderItems } from './view.js';
 
@@ -41,11 +38,6 @@ const updateTotalFortune = (data) => {
   totalFortuneElement.textContent = `Fortuna total: ${formatFortune(totalFortune)}`;
 };
 
-<<<<<<< Updated upstream
-=======
-
-
->>>>>>> Stashed changes
 // Función auxiliar para formatear la fortuna
 const formatFortune = (fortune) => {
   return '$' + fortune.toLocaleString();
