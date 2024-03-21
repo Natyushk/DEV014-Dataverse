@@ -8,7 +8,6 @@ export const renderItems = (dataArray) => {
 
   // Crear un nuevo ul
   const newUl = document.createElement("ul");
-
   // Iterar sobre cada elemento en el array
   dataArray.forEach(element => {
     // Crear un nuevo li para cada elemento
@@ -44,5 +43,7 @@ export const renderItems = (dataArray) => {
     //newP.innerHTML = element.name + element.extraInfo.continent;
 
   });
-  return newUl
+
+  return newUl;
+
 };
