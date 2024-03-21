@@ -12,27 +12,26 @@
     </header>
     <main>
       <h2></h2>
-      <label for="continente">Filtrar por continente:</label>
-      <select name="continente" id="continent-filter">
-        <option value="Todos">Todos</option>
-        <option value="Oceanía">Oceanía</option>
-        <option value="America">América</option>
-        <option value="Asia">Asia</option>
-        <option value="Africa">África</option>
-        <option value="Europa">Europa</option>
-        <option value="Antartida">Antártida</option>
+      <section>
+        <label for="continente">Filtrar por continente:</label>
+        <select name="continente" id="continent-filter">
+          <option value="Todos">Todos</option>
+          <option value="Oceanía">Oceanía</option>
+          <option value="America">América</option>
+          <option value="Asia">Asia</option>
+          <option value="Africa">África</option>
+          <option value="Europa">Europa</option>
+          <option value="Antartida">Antártida</option>
+        </select>
+      <label for="sort-by">Ordenar por:</label>
+      <select name="sort-by" id="sort-by">
+        <option value="name-asc">Nombre (A-Z)</option>
+        <option value="name-desc">Nombre (Z-A)</option>
+        <option value="fortune-asc">Fortuna (Ascendente)</option>
+        <option value="fortune-desc">Fortuna (Descendente)</option>
       </select>
-    <button id="filter-button">Filtrar</button>
-    
-    <label for="sort-by">Ordenar por:</label>
-    <select name="sort-by" id="sort-by">
-      <option value="name-asc">Nombre (A-Z)</option>
-      <option value="name-desc">Nombre (Z-A)</option>
-      <option value="fortune-asc">Fortuna (Ascendente)</option>
-      <option value="fortune-desc">Fortuna (Descendente)</option>
-    </select>
-    <button id="sort-button">Ordenar</button>
-    <p id="total-fortune"></p>
+      <p id="total-fortune"></p>
+      </section>
     </main>
     <footer>
       <p>Creadoras.</p>
