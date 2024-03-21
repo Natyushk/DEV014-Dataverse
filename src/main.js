@@ -1,5 +1,5 @@
-
 import data from './data/dataset.js';
+
 import { renderItems } from './view.js';
 
 // Importar funciones de dataFunctions.js
@@ -36,9 +36,4 @@ sortButton.addEventListener('click', () => {
 const updateTotalFortune = (data) => {
   const totalFortune = calculateTotalFortune(data);
   totalFortuneElement.textContent = `Fortuna total: ${formatFortune(totalFortune)}`;
-};
-
-// Función auxiliar para formatear la fortuna
-const formatFortune = (fortune) => {
-  return '$' + fortune.toLocaleString();
 };
