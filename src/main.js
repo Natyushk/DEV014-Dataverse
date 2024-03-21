@@ -1,3 +1,4 @@
+import data from './data/dataset.js';
 
 import { renderItems } from './view.js';
 
@@ -13,7 +14,7 @@ const filterButton = document.getElementById('filter-button');
 const sortBySelect = document.getElementById('sort-by');
 const sortButton = document.getElementById('sort-button');
 const totalFortuneElement = document.getElementById('total-fortune');
-const richPeopleList = document.getElementById('rich-people-list');
+//const richPeopleList = document.getElementById('rich-people-list');
 
 // Manejador de evento para el botón de filtrar
 filterButton.addEventListener('click', () => {

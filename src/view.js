@@ -21,9 +21,10 @@ export const renderItems = (dataArray) => {
 
     // Crear y configurar el párrafo con el nombre
     const newPName = document.createElement("p");
-    //newPName.textContent = 'Nombre: ${element.name}'
+    
+    newPName.textContent = `Nombre: ${element.name}`
     newLi.appendChild(newPName);
-    newPName.innerHTML = element.name;
+    //newPName.innerHTML = element.name;
 
     const newPContinent = document.createElement("p");
     //newPContinent.textContent = 'Continente: ${element.extraInfo.continent}'
