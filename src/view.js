@@ -36,6 +36,11 @@ export const renderItems = (dataArray) => {
     newLi.appendChild(newPFortune);
     newPFortune.innerHTML = element.facts.fortune;
 
+    const newPshortDescription = document.createElement("p");
+    //newPFortune.textContent = 'Fortuna: ${element.facts.fortune}'
+    newLi.appendChild(newPshortDescription);
+    newPshortDescription.innerHTML = element.shortDescription;
+
     //newP.innerHTML = element.name + element.extraInfo.continent;
 
   });
