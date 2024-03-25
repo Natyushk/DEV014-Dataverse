@@ -1,4 +1,3 @@
-// Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
 
 // Función para filtrar los datos por continente
 export const filterByContinent = (data, continent) => {
@@ -30,8 +29,9 @@ export const sortBy = (data, field, sortOrder) => {
 export const calculateTotalFortune = (data) => {
   return data.reduce((total, item) => {
     return total + parseFortune(item.facts.fortune);
-  }, 0);
+  },);
 };
+
 
 // Función auxiliar para convertir la fortuna a un número
 const parseFortune = (fortuneString) => {

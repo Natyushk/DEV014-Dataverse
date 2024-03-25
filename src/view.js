@@ -12,7 +12,9 @@ export const renderItems = (dataArray) => {
   dataArray.forEach(element => {
     // Crear un nuevo li para cada elemento
     const newLi = document.createElement("li");
+    newLi.classList.add("card");
     newUl.appendChild(newLi);
+
 
     // Crear y configurar la imagen
     const nodoImg = document.createElement("img");
