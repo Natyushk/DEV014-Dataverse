@@ -2,7 +2,7 @@ import data from './data/dataset.js';
 
 import { renderItems } from './view.js';
 
-// Importar funciones de dataFunctions.js
+// Importar funciones
 import { filterByContinent, sortBy} from './dataFunctions.js';
 // import { filterByContinent, sortBy, calculateTotalFortune } from './dataFunctions.js';
 
