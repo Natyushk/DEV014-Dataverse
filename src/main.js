@@ -37,7 +37,7 @@ sortBySelect.addEventListener('change', () => {
   richPeopleList.appendChild(renderItems(sortedData));
 });
 
-//Función para actualizar y mostrar la fortuna total y el promedio
+// Función para actualizar y mostrar la fortuna total y el promedio
 const updateFortuneStats = (data) => {
   const { totalFortune, averageFortune } = calculateFortuneStats(data);
   totalFortuneElement.textContent = `Suma total de fortunas: ${formatFortune(totalFortune)}`;
@@ -51,4 +51,3 @@ const formatFortune = (fortune) => {
 
 // Actualizar las estadísticas de fortuna inicialmente
 updateFortuneStats(data);
-
