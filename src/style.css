@@ -30,7 +30,12 @@ section {
 }
 div{
     display: flex;
+    margin-top: 24px;
+    flex-direction: column;
     justify-content: center;
+}
+div p {
+    font-size: 28px;
 }
 label {
     margin-left: 24px;
