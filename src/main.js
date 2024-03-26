@@ -8,11 +8,11 @@ import { filterByContinent, sortBy} from './dataFunctions.js';
 
 // Renderizar los elementos inicilmente
 let richPeopleList = document.querySelector("main").appendChild(renderItems(data));
-console.log(renderItems(data));
 
 // Referencias a elementos del DOM
 const continentFilterSelect = document.getElementById('continent-filter');
 const sortBySelect = document.getElementById('sort-by');
+const resetButton = document.getElementById('reset-button');
 //const richPeopleList = document.getElementById('rich-people-list');
 
 // Manejador de evento para cambio en select
@@ -27,10 +27,16 @@ continentFilterSelect.addEventListener('change', () => {
 // Manejador de evento para el botón de ordenar
 sortBySelect.addEventListener('change', () => {
   const [field, order] = sortBySelect.value.split('-');
-  const sortedData = sortBy(data, field, order);
+  const sortedData = sortBy(filterByContinent(data,continentFilterSelect.value), field, order);
   richPeopleList.remove();
   richPeopleList = document.querySelector("main").appendChild(renderItems(sortedData));
   //updateTotalFortune(sortedData);
+});
+
+resetButton.addEventListener('click', () => {
+  continentFilterSelect.value = 'Todos';
+  richPeopleList.remove();
+  richPeopleList = document.querySelector("main").appendChild(renderItems(data));
 });
 // Función para actualizar y mostrar la fortuna total
 // const updateTotalFortune = (data) => {
