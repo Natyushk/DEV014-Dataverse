@@ -29,17 +29,17 @@ export const renderItems = (dataArray) => {
     //newPName.innerHTML = element.name;
 
     const newPContinent = document.createElement("p");
-    //newPContinent.textContent = 'Continente: ${element.extraInfo.continent}'
+    //newPContinent.textContent = `Continente: ${element.extraInfo.continent}`
     newLi.appendChild(newPContinent);
     newPContinent.innerHTML = element.extraInfo.continent;
 
     const newPFortune = document.createElement("p");
-    //newPFortune.textContent = 'Fortuna: ${element.facts.fortune}'
+    //newPFortune.textContent = `Fortuna: ${element.facts.fortune}`
     newLi.appendChild(newPFortune);
     newPFortune.innerHTML = element.facts.fortune;
 
     const newPshortDescription = document.createElement("p");
-    //newPFortune.textContent = 'Fortuna: ${element.facts.fortune}'
+    //newPFortune.textContent = `Fortuna: ${element.facts.fortune}`
     newLi.appendChild(newPshortDescription);
     newPshortDescription.innerHTML = element.shortDescription;
 
