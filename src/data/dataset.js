@@ -131,7 +131,7 @@ export default [
     "facts": {
       "birthYear": 1954,
       "age": 70,
-      "fortune": "$85B"
+      "fortune": "$85.000.000.000"
     },
     "extraInfo": {
       "industry": "Bebidas",
@@ -167,7 +167,7 @@ export default [
     "facts": {
       "birthYear": 1944,
       "age": 78,
-      "fortune": "$85B"
+      "fortune": "$85.000.000.000"
     },
     "extraInfo": {
       "industry": "Tecnología",
@@ -293,7 +293,7 @@ export default [
     "facts": {
       "birthYear": 1950,
       "age": 74,
-      "fortune": "$25B"
+      "fortune": "$25.000.000.000"
     },
     "extraInfo": {
       "industry": "Acero",
@@ -311,7 +311,7 @@ export default [
     "facts": {
       "birthYear": 1964,
       "age": 60,
-      "fortune": "$45B"
+      "fortune": "$45.000.000.000"
     },
     "extraInfo": {
       "industry": "Tecnología",
