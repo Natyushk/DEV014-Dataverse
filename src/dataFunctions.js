@@ -29,7 +29,15 @@ export const sortBy = (data, field, sortOrder) => {
 export const calculateTotalFortune = (data) => {
   return data.reduce((total, item) => {
     return total + parseFortune(item.facts.fortune);
-  },);
+  }, 0); // Agrega el valor inicial de total como 0
+};
+
+// Función para calcular la suma total y el promedio de las fortunas
+export const calculateFortuneStats = (data) => { 
+  const filteredFortunes = data.map(item => parseFortune(item.facts.fortune));
+  const totalFortune = filteredFortunes.reduce((total, fortune) => total + fortune, 0);
+  const averageFortune = totalFortune / filteredFortunes.length;
+  return { totalFortune, averageFortune };
 };
 
 
