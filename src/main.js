@@ -6,6 +6,7 @@ import { renderItems } from './view.js';
 import { filterByContinent, sortBy, calculateFortuneStats } from './dataFunctions.js';
 
 // import { filterByContinent, sortBy, calculateTotalFortune } from './dataFunctions.js';
+// Renderizar los elementos inicilmente
 
 const richPeopleList = document.getElementById('rich-people-list');
 const totalFortuneElement = document.getElementById('total-fortune');
@@ -14,9 +15,11 @@ const averageFortuneElement = document.getElementById('average-fortune');
 //Renderizar los elementos inicialmente
 richPeopleList.appendChild(renderItems(data));
 
+
 // Referencias a elementos del DOM
 const continentFilterSelect = document.getElementById('continent-filter');
 const sortBySelect = document.getElementById('sort-by');
+
 //const richPeopleList = document.getElementById('rich-people-list');
 
 // Manejador de evento para cambio en select
@@ -32,6 +35,16 @@ continentFilterSelect.addEventListener('change', () => {
 // Manejador de evento para el botón de ordenar
 sortBySelect.addEventListener('change', () => {
   const [field, order] = sortBySelect.value.split('-');
+  const sortedData = sortBy(filterByContinent(data,continentFilterSelect.value), field, order);
+  richPeopleList.remove();
+  richPeopleList = document.querySelector("main").appendChild(renderItems(sortedData));
+  updateTotalFortune(sortedData);
+});
+
+Función para actualizar y mostrar la fortuna total
+const updateTotalFortune = (data) => {
+  const totalFortune = calculateTotalFortune(data); totalFortuneElement.textContent = `Fortuna total: ${formatFortune(totalFortune)}`;
+// };
   const sortedData = sortBy(data, field, order);
   richPeopleList.innerHTML = '';
   richPeopleList.appendChild(renderItems(sortedData));
