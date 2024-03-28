@@ -14,8 +14,8 @@ export const renderItems = (dataArray) => {
     // Crear un nuevo li para cada elemento
     const newLi = document.createElement("li");
     newLi.classList.add("card");
-    newLi.setAttribute("id","itemtype");
-    
+    newLi.setAttribute("itemscope", "");
+    newLi.setAttribute("itemtype", "https://schema.org/Person");
     
     // Crear y configurar la imagen
     const nodoImg = document.createElement("img");
@@ -24,7 +24,7 @@ export const renderItems = (dataArray) => {
     
     // Crear y configurar el párrafo con el nombre
     const newPName = document.createElement("p");
-    
+    newPName.setAttribute("itemprop", "name");
     newPName.textContent = `Nombre: ${element.name}`
     newLi.appendChild(newPName);
     //newPName.innerHTML = element.name;
