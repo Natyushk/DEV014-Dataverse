@@ -36,5 +36,56 @@ export const data = [
       "continent": "Europa"
     }
   },
+  {
+    "id": "mark-zuckerberg",
+    "name": "Mark Zuckerberg",
+    "shortDescription": "CEO de Facebook, pionero en redes sociales y tecnología, conectando a personas globalmente y liderando innovación digital.",
+    "description": "Cofundador y CEO de Facebook, es una figura destacada en la industria de la tecnología y las redes sociales. Nacido en 1984 en Estados Unidos, Zuckerberg fundó Facebook en su dormitorio de la universidad, convirtiéndola en una de las plataformas más influyentes del mundo. Su visión de conectar a las personas y fomentar la comunicación global ha transformado la forma en que interactuamos en línea. Además, Zuckerberg ha liderado iniciativas en inteligencia artificial, realidad virtual y filantropía, buscando impactar positivamente en la sociedad a través de la tecnología.",
+    "imageUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Mark%20Zuckerberg.jpeg",
+    "facts": {
+      "birthYear": 1984,
+      "age": 40,
+      "fortune": "$120.000.000.000"
+    },
+    "extraInfo": {
+      "industry": "Tecnología",
+      "countryOfBirth": "Estados Unidos",
+      "continent": "América"
+    }
+  },
+  {
+    "id": "zhong-shanshan",
+    "name": "Zhong Shanshan",
+    "shortDescription": "Presidente de Nongfu Spring, líder en la industria de bebidas de China, famoso por su enfoque en la calidad.",
+    "description": "Fundador y presidente de Nongfu Spring, es una destacada figura en la industria de bebidas de China. Nacido en 1954, Zhong ha construido su imperio desde cero, convirtiendo a Nongfu Spring en una de las marcas de agua embotellada más grandes del país. Su enfoque en la calidad y la salud ha resonado con los consumidores chinos, llevando a un crecimiento exponencial de la empresa. Además, Zhong es conocido por su discreción y su enfoque pragmático en los negocios, lo que lo ha convertido en uno de los hombres más ricos de China.",
+    "imageUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Zhong%20Shanshan.jpg",
+    "facts": {
+      "birthYear": 1954,
+      "age": 70,
+      "fortune": "$85.000.000.000"
+    },
+    "extraInfo": {
+      "industry": "Bebidas",
+      "countryOfBirth": "China",
+      "continent": "Asia"
+    }
+  },
+  {
+    "id": "steve-ballmer",
+    "name": "Steve Ballmer",
+    "shortDescription": "Ex CEO de Microsoft y propietario de los Clippers, líder tecnológico y deportivo influyente.",
+    "description": "ex CEO de Microsoft y propietario de Los Angeles Clippers, es una figura destacada en la industria tecnológica y deportiva. Nacido en 1956 en Estados Unidos, Ballmer dirigió Microsoft durante un período de expansión significativa, consolidando su posición como líder en software. Su enfoque apasionado y su energía contagiosa lo convirtieron en una figura icónica dentro de la empresa. Después de dejar Microsoft, Ballmer se ha dedicado a la propiedad deportiva, adquiriendo los Clippers y demostrando su liderazgo en un nuevo campo.",
+    "imageUrl": "https://raw.githubusercontent.com/Natyushk/DEV014-Dataverse/main/IMAGENES/Steve%20Ballmer.jpg",
+    "facts": {
+      "birthYear": 1956,
+      "age": 68,
+      "fortune": "$80.000.000.000"
+    },
+    "extraInfo": {
+      "industry": "Tecnología",
+      "countryOfBirth": "Estados Unidos",
+      "continent": "América"
+    }
+  },
 ];
 
