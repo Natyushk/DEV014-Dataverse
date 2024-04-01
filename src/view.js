@@ -5,7 +5,6 @@ export const renderItems = (dataArray) => {
     console.error("Data debe ser un array.");
     return; 
   }
-
   // Crear un nuevo ul
   const newUl = document.createElement("ul");
   newUl.setAttribute("id", "rich-people-list");

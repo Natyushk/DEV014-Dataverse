@@ -25,26 +25,10 @@ export const sortBy = (data, field, sortOrder) => {
   }
 };
 
-// Función para calcular la fortuna total de los datos
-export const calculateTotalFortune = (data) => {
-  return data.reduce((total, item) => {
-    return total + parseFortune(item.facts.fortune);
-  }, 0); // Agrega el valor inicial de total como 0
-};
-
-
 // Función auxiliar para convertir la fortuna a un número
 const parseFortune = (fortuneString) => {
   return parseFloat(fortuneString.replace(/[^\d.-]/g, ''));
 };
-
-// Función auxiliar para convertir la fortuna a un número
-// const parseFortune = (fortuneString) => {
-//   const sanitizedString = fortuneString.replace(/[^0-9.-]/g, ''); // Eliminar caracteres no numéricos excepto "." y "-"
-//   const parsedFortune = parseFloat(sanitizedString); // Convertir la cadena a un número de punto flotante
-//   console.log(isNaN(parsedFortune) ? 0 : parsedFortune);
-//   return isNaN(parsedFortune) ? 0 : parsedFortune; // Si el resultado es NaN, devolver 0
-// };
 
 // Función para calcular la suma total y el promedio de las fortunas
 export const calculateFortuneStats = (data) => { 
