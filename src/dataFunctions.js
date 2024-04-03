@@ -1,4 +1,3 @@
-
 // Función para filtrar los datos por continente
 export const filterByContinent = (data, continent) => {
   if (continent === 'Todos') {
@@ -38,10 +37,47 @@ const parseFortune = (fortuneString) => {
 };
 
 // Función para calcular la suma total y el promedio de las fortunas
-export const calculateFortuneStats = (data) => { 
+export const calculateFortuneStats = (data) => {
   const filteredFortunes = data.map(item => parseFortune(item.facts.fortune));
   const totalFortune = filteredFortunes.reduce((total, fortune) => total + fortune, 0);
+<<<<<<< Updated upstream
   const averageFortune = (totalFortune / filteredFortunes.length).toFixed(2);
 
   return [ totalFortune, averageFortune ];
+=======
+  const averageFortune = totalFortune / filteredFortunes.length;
+
+  //Formatear la suma total y el promedio
+  const formattedTotalFortune = formatFortune(totalFortune);
+  const formattedAverageFortune = formatFortune(averageFortune);
+
+  return { totalFortune: formattedTotalFortune, averageFortune: formattedAverageFortune };
+};
+
+// Función auxiliar para formatear la fortuna en el formato deseado
+const formatFortune = (fortune) => {
+  // Convertir la fortuna a cadena y agregar 'B' al final
+  return `$${fortune.toFixed(2)}B`;
+};
+
+// Función auxiliar para convertir la fortuna a un número
+const parseFortune = (fortuneString) => {
+  // Verificar si la cadena de fortuna es nula, indefinida o no es una cadena
+  if (fortuneString === null || fortuneString === undefined || typeof fortuneString !== 'string') {
+    return 0; // Devolver 0 si la cadena de fortuna no es válida
+  }
+
+  // Eliminar caracteres no numéricos excepto "." y "-"
+  const sanitizedString = fortuneString.replace(/[^0-9.-]/g, '');
+
+  // Intentar convertir la cadena a un número de punto flotante
+  const parsedFortune = parseFloat(sanitizedString);
+
+  // Verificar si el resultado es NaN o infinito
+  if (isNaN(parsedFortune) || !isFinite(parsedFortune)) {
+    return 0; // Devolver 0 si el resultado no es un número finito
+  }
+
+  return parsedFortune; // Devolver la fortuna convertida si es válida
+>>>>>>> Stashed changes
 };
