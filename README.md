@@ -9,7 +9,7 @@ El proyecto "Personas Millonarias del Mundo" es una aplicación web que permite 
 ### Modelo del prompt
 
 El modelo del prompt consiste en desarrollar una aplicación web que utilice datos sobre las personas más ricas del mundo, permitiendo filtrar por continente, ordenar por fortuna o nombre, y calcular estadísticas sobre la fortuna total y promedio.
-![Modelo de prompt](/Users/natalymolano/Documents/NATALY/PERSONAL/CURSOS/PROGRAMACION/DATAVERSE/DEV014-Dataverse/Prompt.png)
+![Ejemplo de prompt](/Users/natalymolano/Documents/NATALY/PERSONAL/CURSOS/PROGRAMACION/DATAVERSE/DEV014-Dataverse/Prompt.png)
 
 ### Prototipo de alta fidelidad
 
