@@ -36,13 +36,6 @@ continentFilterSelect.addEventListener('change', () => {
 });
 
 // Manejador de evento para cambio en select para ordenar
-// sortBySelect.addEventListener('change', () => {
-//   const [field, order] = sortBySelect.value.split('-');
-//   const sortedData = sortBy(filterByContinent(data,continentFilterSelect.value), field, order);
-//   richPeopleList.remove();
-//   richPeopleList = document.querySelector("main").appendChild(renderItems(sortedData));
-//   updateFortuneStats(sortedData);
-// });
 sortBySelect.addEventListener('change', () => {
   const order = sortBySelect.value;
   const sortedData = sortBy(filterByContinent(data,continentFilterSelect.value), order);
