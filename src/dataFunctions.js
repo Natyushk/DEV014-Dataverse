@@ -9,14 +9,14 @@ export const filterByContinent = (data, continent) => {
 };
 
 // Función para ordenar los datos por fortuna (mayor a menor o menor a mayor) o por nombre
-export const sortBy = (data, field, sortOrder) => {
-  if (field === 'fortune') {
+export const sortBy = (data, sortOrder) => {
+  if (sortOrder === 'fortune-asc' || sortOrder === 'fortune-desc') {
     return data.sort((a, b) => {
       const fortuneA = parseFortune(a.facts.fortune);
       const fortuneB = parseFortune(b.facts.fortune);
-      return sortOrder === 'asc' ? fortuneA - fortuneB : fortuneB - fortuneA;
+      return sortOrder === 'fortune-asc' ? fortuneA - fortuneB : fortuneB - fortuneA;
     });
-  } else if (field === 'name') {
+  } else if (sortOrder === 'asc' || sortOrder === 'desc') {
     return data.sort((a, b) => {
       const nameA = a.name.toUpperCase();
       const nameB = b.name.toUpperCase();
@@ -24,6 +24,13 @@ export const sortBy = (data, field, sortOrder) => {
     });
   }
 };
+// export const sortBy = (data, sortOrder) => {
+//   return data.sort((a, b) => {
+//     const nameA = a.name.toUpperCase();
+//     const nameB = b.name.toUpperCase();
+//     return sortOrder === 'asc' ? nameA.localeCompare(nameB) : nameB.localeCompare(nameA);
+//   });
+// };
 
 // Función auxiliar para convertir la fortuna a un número
 const parseFortune = (fortuneString) => {

@@ -14,7 +14,7 @@
       <h2></h2>
       <section>
         <label for="continent-filter">Filtrar por continente:</label>
-        <select name="continente" id="continent-filter">
+        <select name="continente" id="continent-filter" data-testid="select-filter" >
           <option value="Todos">Todos</option>
           <option value="Oceanía">Oceanía</option>
           <option value="América">América</option>
@@ -24,13 +24,13 @@
           <option value="Antartida">Antártida</option>
         </select>
       <label for="sort-by">Ordenar por:</label>
-      <select name="sort-by" id="sort-by">
-        <option value="name-asc">Nombre (A-Z)</option>
-        <option value="name-desc">Nombre (Z-A)</option>
+      <select name="name" id="sort-by" data-testid="select-sort">
+        <option value="asc">Nombre (A-Z)</option>
+        <option value="desc">Nombre (Z-A)</option>
         <option value="fortune-asc">Fortuna (Ascendente)</option>
         <option value="fortune-desc">Fortuna (Descendente)</option>
       </select>
-      <button id="reset-button">Limpiar</button>
+      <button data-testid="button-clear" id="reset-button">Limpiar</button>
       </section>
       <div id="fortune-stats">
         <p id="total-fortune">Suma total de fortunas:</p>
@@ -38,7 +38,7 @@
       </div>
     </main>
     <footer>
-      <p>Creadoras.</p>
+      <p>Nataly Molano y Sandra Morales</p>
     </footer>
     <script src="main.js" type="module"></script>
   </body>

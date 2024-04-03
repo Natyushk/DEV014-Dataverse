@@ -13,7 +13,7 @@ const averageFortuneElement = document.querySelector('#average-fortune');
 const resetButton = document.querySelector('#reset-button');
 
 // Renderizar los elementos inicilmente
-let richPeopleList = document.querySelector("main").appendChild(renderItems(sortBy(data, 'name', 'asc')));
+let richPeopleList = document.querySelector("main").appendChild(renderItems(sortBy(data, 'asc')));
 
 // Función para actualizar y mostrar la fortuna total y el promedio
 const updateFortuneStats = (data) => {
@@ -29,16 +29,23 @@ updateFortuneStats(data);
 continentFilterSelect.addEventListener('change', () => {
   const continent = continentFilterSelect.value;
   const filteredData = filterByContinent(data, continent);
-  sortBySelect.value = 'name-asc';
+  sortBySelect.value = 'asc';
   richPeopleList.remove();
   richPeopleList = document.querySelector("main").appendChild(renderItems(filteredData));
   updateFortuneStats(filteredData);
 });
 
 // Manejador de evento para cambio en select para ordenar
+// sortBySelect.addEventListener('change', () => {
+//   const [field, order] = sortBySelect.value.split('-');
+//   const sortedData = sortBy(filterByContinent(data,continentFilterSelect.value), field, order);
+//   richPeopleList.remove();
+//   richPeopleList = document.querySelector("main").appendChild(renderItems(sortedData));
+//   updateFortuneStats(sortedData);
+// });
 sortBySelect.addEventListener('change', () => {
-  const [field, order] = sortBySelect.value.split('-');
-  const sortedData = sortBy(filterByContinent(data,continentFilterSelect.value), field, order);
+  const order = sortBySelect.value;
+  const sortedData = sortBy(filterByContinent(data,continentFilterSelect.value), order);
   richPeopleList.remove();
   richPeopleList = document.querySelector("main").appendChild(renderItems(sortedData));
   updateFortuneStats(sortedData);
@@ -47,9 +54,9 @@ sortBySelect.addEventListener('change', () => {
 //Función para boton limpiar
 resetButton.addEventListener('click', (event) => {
   continentFilterSelect.value = 'Todos';
-  sortBySelect.value = 'name-asc';
+  sortBySelect.value = 'asc';
   richPeopleList.remove();
-  richPeopleList = document.querySelector("main").appendChild(renderItems(data));
+  richPeopleList = document.querySelector("main").appendChild(renderItems(sortBy(data, 'asc')));
   updateFortuneStats(data);
-  console.log('Evento', event); 
+  console.log('Evento', event.type); 
 });
