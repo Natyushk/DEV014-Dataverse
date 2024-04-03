@@ -24,13 +24,6 @@ export const sortBy = (data, sortOrder) => {
     });
   }
 };
-// export const sortBy = (data, sortOrder) => {
-//   return data.sort((a, b) => {
-//     const nameA = a.name.toUpperCase();
-//     const nameB = b.name.toUpperCase();
-//     return sortOrder === 'asc' ? nameA.localeCompare(nameB) : nameB.localeCompare(nameA);
-//   });
-// };
 
 // Función auxiliar para convertir la fortuna a un número
 const parseFortune = (fortuneString) => {
